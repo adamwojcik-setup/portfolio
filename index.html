@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+   <header id="main-header">
+       <div class='background'>
+            <h1 class="main-header">front end developer</h1>
+            <hr>
+            <p>HTML <span class="blue">&#8226;</span> CSS <span class="blue">&#8226;</span> JavaScript </p>
+            <a href="" class="button">dowiedz się więcej</a>
+       </div>
+   </header>
+   <nav class="main-nav">
+       <label for="rwd-menu">Menu</label>
+       <input type="checkbox" name="rwd-menu" id="rwd-menu">
+       <ul>
+        <li><a href="#o mnie">O mnie</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+       </ul>
+   </nav>
+       <section class="about">
+           <div class="about-inner">
+               <h2 id="o mnie">O mnie</h2>
+               <hr>
+               <img src="img/about.jpg" alt="face">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus</p>
+                <a href="#portfolio" class="button">Moje portfolio</a>
+           </div>
+       </section>
+       <!-- section#container>h2.moje-portfolio{moje portfolio}hr+.container-inner*12>img -->
+
+       <section id="portfolio">
+           <h2 class="moje-portfolio">moje portfolio</h2>
+           <hr>
+               <div class="container"> <!-- flex -->
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3> <!-- flex-item-->
+                       <img src="img/portfolio/photo-1.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-2.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-3.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-4.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-5.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-6.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-7.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-8.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-9.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-10.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-11.jpg" alt="obrazek"></div>
+                   <div class="container-inner">
+                       <h3 class="name">Projekt</h3>
+                       <img src="img/portfolio/photo-12.jpg" alt="obrazek"></div>
+               </div>
+       </section>
+       <section id="main-contact" class="contact">
+      
+           <h2 id="contact" >kontakt</h2>
+           <hr>
+           <form action="https://formspree.io/setup.aw@gmail.com" method="POST">
+                <input type="text" placeholder="imię">
+                <input type="text" name="lastname" id="lastname" placeholder="nazwisko">
+                <textarea name="message" id="message" placeholder="nazwisko">Wiadomość</textarea>
+                <input class="button" type="submit" value="Wiadomość">
+            </form>
+            <div class="social-media">
+                <a href="">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+    </section>
+    <footer class="main-footer">
+        <p>Copyrights &copy; AW</p>
+    </footer>
+</body>
+</html>

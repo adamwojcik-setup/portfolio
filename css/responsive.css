@@ -1,0 +1,26 @@
+@media all and (max-width: 768px) {
+    .about img {
+        width: 300px;
+        height: 300px;
+    }
+    .container {
+        flex-basis: 100%
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .main-nav label {
+        display: block;
+    }
+    .main-nav ul {
+        display: none;
+    }
+    .main-nav input:checked + ul {
+        display: flex;
+    }
+    .about img {
+        width: 200px;
+        height: 200px;
+    
+}
